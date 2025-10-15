@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+#map {
+  height: 500px;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Spreads out the items in the navbar */
+#navbar {
+    display: flex;
+    justify-content: space-around; /* This is the key property to spread items out */
+    align-items: center; /* Good for vertical alignment */
+    border: 1px solid black;
+    margin: 20px 30px;
+    padding: 10px; /* Add some padding inside the main navbar */
+}
+
+/* Styles each individual item */
+.nav {
+    border: 1px solid #ccc; /* Adds the individual boundary */
+    border-radius: 8px;      /* Makes the corners rounded */
+    padding: 10px 15px;      /* Adds space inside each box */
+    text-align: center;      /* Centers the text inside each box */
+}
+
+
+#location{
+    transform: translate(7px,40px);
+    padding: 10px 20px;
+}
+#location h3{
+    border: 1px black;
+    border-radius: 20px;
+    background-color: rgb(1, 188, 32);
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+#upload a{
+    color: rgb(91, 37, 37);
+    text-decoration: none;
+}

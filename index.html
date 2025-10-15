@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Map</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="location">
+        <h3>Water Body: Indian Ocean</h3>
+    </div>
+    
+  <div id="navbar">
+    <div id="eH" class="nav">
+        <h3>Overall Eco health</h3>
+        <p style="color: rgb(0, 163, 76);font-weight: bold;font-size: 1.15em;">Good</p>
+    </div>
+    <div id="num" class="nav">
+        <h3>Number of species</h3>
+        <p>2000</p>
+    </div>
+    <!-- <div id="top" class="nav">
+        <h3>Top 10 species available</h3>
+        <p>Tuna: 200</p>
+    </div> -->
+    <div id="upload" class="nav">
+        <h3>Upload</h3>
+        
+    </div>
+  </div>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Your JS -->
+  <script src="index.js"></script>
+</body>
+</html>

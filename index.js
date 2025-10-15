@@ -18,7 +18,7 @@ const hotspots = [
 hotspots.forEach(h => {
   L.marker(h.coords)
     .addTo(map)
-    .bindPopup(`<b>${h.name}</b><br>Hotspot area.`);
+    .bindPopup(`<b>Eco Score: 90/100</b><br><b>Location:(${h.coords})</b><br>Time:13:11<br>Number of species: 7<br>Weight: 190kg`);
 });
 
 // Optional: Highlight region with circle
@@ -32,22 +32,22 @@ hotspots.forEach(h => {
 // Example hotspot in the Indian Ocean
 L.marker([19.5, 71.225])
   .addTo(map)
-  .bindPopup(`<b>Eco Score: 87/100</b><br><b>Location:(19.5, 71.225)</b><br>Time:22:41<br>Number of species: 7<br>Weight: 200kg`)
+  .bindPopup(`<b>Eco Score: 87/100</b><br><b>Location:(19.5, 71.225)</b><br>Time:12:41<br>Number of species: 7<br>Weight: 200kg`)
   .openPopup();
 
 L.marker([19.75, 71.75])
   .addTo(map)
-  .bindPopup(`<b>Eco Score: 87/100</b><br><b>Location:(19.75, 71.75)</b><br>Time:22:41<br>Number of species: 7<br>Weight: 200kg`)
+  .bindPopup(`<b>Eco Score: 82/100</b><br><b>Location:(19.75, 71.75)</b><br>Time:10:01<br>Number of species: 9<br>Weight: 75kg`)
   .openPopup();
 
 L.marker([20, 70.5])
   .addTo(map)
-  .bindPopup(`<b>Location:(20, 70.5)</b><br>Time:22:41<br>Number of species: 7<br>Weight: 200kg`)
+  .bindPopup(`<b>Eco Score: 89/100</b><br><b>Location:(20, 70.5)</b><br>Time:13:25<br>Number of species: 9<br>Weight: 150kg`)
   .openPopup();
 
 L.marker([19, 71.95])
   .addTo(map)
-  .bindPopup(`<b>Eco Score: 87/100</b><br><b>Location:(19, 71.95)</b><br>Time:22:41<br>Number of species: 7<br>Weight: 200kg`)
+  .bindPopup(`<b>Eco Score: 90/100</b><br><b>Location:(19, 71.95)</b><br>Time:13:11<br>Number of species: 7<br>Weight: 190kg`)
   .openPopup();
 
 // Optional: circle overlay
